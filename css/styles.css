@@ -1,0 +1,283 @@
+.container-fluid, .row{
+	margin: 0;
+	padding: 0;
+}
+
+/* BACK GROUND */
+
+
+
+/* GERAL */
+
+header .header-logo{
+	text-align: center;
+}
+
+header .header-texto{
+	font-family: 'Unica One', cursive;
+	font-size: 1.3em;
+	text-align: center;
+	letter-spacing: .2em;
+}
+
+header .header-texto span:hover{
+	color: #F4662E;
+}
+
+nav{
+	text-align: center;
+	background-color: #F4662E;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+main .slider{
+	text-align: center;
+}
+
+main .slider img{
+	max-height: 500px;
+}
+
+main .slider .prev{
+	background-image: url(../arquivos/slider/prev.png);
+	width: 90px;
+	height: 90px;
+}
+
+main .slider .next{
+	background-image: url(../arquivos/slider/next.png);
+	width: 90px;
+	height: 90px;
+}
+
+main .slider li{
+	background-color: #F4662E;
+}
+
+main p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+main .title{
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+main .projetos{
+	text-align: center;
+}
+
+main .projetos .title{
+	font-size: 1.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+}
+
+main .projetos .box{
+	color: #F4662E;
+	overflow: hidden;
+}
+
+main .projetos .box .miniatura{
+	width: 250px;
+	height: 250px;
+}
+
+main .projetos .box .hover{
+	position: relative;
+	display: inline-block;
+}
+
+main .projetos .box .hover:hover::after{
+	visibility: visible;
+}
+
+main .projetos .box .hover::after{
+	background: url(../arquivos/hover-logo.png) no-repeat;
+	background-position: 0% 0%;
+	content: '';
+  	display: block;
+  	height: 250px;
+  	left: 0;
+  	position: absolute;
+  	top: 0;
+  	visibility: hidden;
+  	width: 250px;
+}
+
+main .projetos .box p{
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin: 0;
+}
+
+main .projetos .box span{
+	font-size: .9em;
+	color: #949494
+}
+
+main .projetos .boxes{
+	float: left;
+}
+
+footer .row{
+	text-align: center;
+}
+
+footer p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: .7em;
+	width: 100%;
+}
+
+main .formulario{
+	text-align: center;
+}
+
+main .formulario .title{
+	font-size: 1.5em;
+}
+
+main .formulario .box-form input, main .formulario .box-form textarea{
+	width: 80%;
+}
+
+main .formulario .box-form label{
+	text-align: left;
+	width: 80%;
+	font-weight: 600;
+}
+
+main .formulario button{
+	border-radius: 0%;
+	width: 200px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .3em;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F4662E;
+	border: none;
+}
+
+main .formulario .mapa{
+	width: 80%;
+	height: 300px;
+	border: 1px solid #F4662E;
+}
+
+main .formulario .info{
+	width: 80%;
+	text-align: left;
+}
+
+main .formulario .info .icone{
+	width: 16px;
+}
+
+main .formulario .info .telefone{
+	transform: rotateY(180deg);
+}
+
+main .formulario .info .celular{
+	padding-left: 3.5px;
+}
+
+main .modal-dialog{
+	max-width: 80%;
+	width: 80%;
+}
+
+main .modal-body{
+	max-height: 500px;
+}
+
+main .modal-body .title{
+	color: #000000;
+}
+
+main .modal-body .icone-modal{
+	font-size: 3em;
+}
+
+main .modal-body .info-modal{
+	color: #000000;
+	font-size: 1.3em;
+}
+
+main .modal-body .slide-modal{
+	float: left;
+	max-height:  500px !important;
+}
+
+main .modal-body .infos-modal{
+	float: left;
+}
+
+main .modal-body .foto-modal{
+	opacity: 0.8;
+	max-height: 415px;
+}
+
+main .modal-body .title-legenda{
+	color: #F4662E;
+	font-weight: 700;
+	background-color: #000;
+	opacity: 0.8;
+	width: 50%;
+}
+
+main .modal-body .sub-legenda{
+	color: #F4662E;
+	font-weight: 500;
+	background-color: #000;
+	opacity: 0.8;
+	width: 70%;
+}
+
+main .modal-body .prev-modal{
+	background-image: url(../arquivos/slider/prev.png);
+	width: 70px;
+	height: 70px;
+}
+
+main .modal-body .next-modal{
+	background-image: url(../arquivos/slider/next.png);
+	width: 70px;
+	height: 70px;
+}
+
+#subirTopo {
+	text-decoration: none;
+	background: rgba(244,102,46,.9);
+	bottom: 30px;
+	right: 30px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	padding: 15px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: fixed;
+	border: 0;
+	font-family: sans-serif;
+	opacity: .7;
+}
+
+#subirTopo:hover {
+	opacity:1;
+}

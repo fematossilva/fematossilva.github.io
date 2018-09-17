@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>By Meia | Arquitetura & Construção</title>
+
+	<!-- Responsivo -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- Jquery -->
+	<script  src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+	<!-- slick -->
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <script  src="js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+
+		<header class="mt-3">
+			<div class="col-sm-12 header-logo">
+				<img src="arquivos/logo.png" alt="Logo By Meia">
+			</div>
+			<div class="col-sm-12 pt-3 header-texto">
+				<span>Arquitetura & Construção</span>
+			</div>
+		</header>
+
+		<nav class="nav justify-content-center mt-3">
+			<div class="col-sm-4">
+				<a href="#">Home</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#projetos" class="scroll-projetos">Projetos</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#contato" class="scroll-contato">Contato</a>
+			</div>
+
+			<script>
+				var $doc = $('html, body');
+				$('.scroll-projetos').click(function() {
+				    $doc.animate({
+				        scrollTop: $( $.attr(this, 'href') ).offset().top
+				    }, 500);
+				    return false;
+				});
+
+				$('.scroll-contato').click(function() {
+				    $doc.animate({
+				        scrollTop: $( $.attr(this, 'href') ).offset().top
+				    }, 500);
+				    return false;
+				});
+			</script>
+		</nav>
+
+		<main>
+			<div class="row">
+				<div class="col-sm-12 mx-auto mt-3 slider">
+					<div id="carouselExampleIndicators" class="carousel slide pl-5 pr-5" data-ride="carousel">
+						<ol class="carousel-indicators">
+						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicador"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicador"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicador"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="3" class="indicador"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="4" class="indicador"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="5" class="indicador"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="6" class="indicador"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="7" class="indicador"></li>
+						</ol>
+					  	<div class="carousel-inner">
+						    <div class="carousel-item active">
+						      	<img class="d-block w-100" src="arquivos/slider/1.jpg" alt="Slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="arquivos/slider/2.jpg" alt="Slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="arquivos/slider/3.jpg" alt="Slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="arquivos/slider/4.jpg" alt="Slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="arquivos/slider/5.jpg" alt="Slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="arquivos/slider/6.jpg" alt="Slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="arquivos/slider/7.jpg" alt="Slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="arquivos/slider/8.jpg" alt="Slide">
+						    </div>
+					  	</div>
+					  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					    	<span class="carousel-control-prev-icon prev" aria-hidden="true"></span>
+					    	<span class="sr-only">Anterior</span>
+					  	</a>
+					  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					    	<span class="carousel-control-next-icon next" aria-hidden="true"></span>
+					    	<span class="sr-only">Próximo</span>
+					  	</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 mx-auto mt-3">
+					<p class="title pl-5 pr-5">Arquitetura aliada a natureza</p>
+					<p class="text pl-5 pr-5">
+						Nosso trabalho representa a técnica da racionalização construtiva aliada a uma estudada organização espacial. Não é só a linha que nos atrai mas também o espaço que ela ocupa, o volume que ela forma. Buscando a beleza mas sempre de mãos dadas com a razão, tentamos traduzir os anseios de nossos Clientes tornando-os realidade. A arquitetura se amplia com a ousadia da engenharia. Venha ousar conosco, arte e técnica somadas resultam em beleza e bom investimento.
+					</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12 mx-auto mt-3 projetos">
+					<p id="projetos" class="title">projetos</p>
+
+					<div class="col-sm-4 mb-5 boxes">
+						<div class="box m3">
+							<a class="hover" href="#" data-toggle="modal" data-target="#ModalLongoExemplo">
+								<img src="arquivos/projetos/1/tb.jpg">
+							</a>
+							<p>by meia #1</p>
+							<span>Toque Toque Pequeno</span>
+							<div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+							  	<div class="modal-dialog mx-auto" role="document">
+								    <div class="modal-content">
+								      	<div class="modal-header">
+								        	<h5 class="modal-title" id="TituloModalLongoExemplo">Projeto #1 - By Meia
+								        	</h5>
+								        	<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+								          	<span aria-hidden="true">&times;</span>
+								        	</button>
+								      	</div>
+								      	<div class="modal-body">
+								        	<p class="title">Projeto #1</p>
+								        	<br>
+
+								        	<div class="col-sm-8 slide-modal">
+
+												<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+													<ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+													    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+													</ol>
+
+													<div class="carousel-inner">
+													    <div class="carousel-item active">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/1/1a.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+														    	<h5 class="title-legenda mx-auto">ENTRADA</h5>
+														    	<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/1/1b.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/1/1c.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/1/1d.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/1/1e.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/1/1f.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/1/1g.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/1/1h.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/1/1i.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													</div>
+												  	<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+												    	<span class="carousel-control-prev-icon prev-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Anterior</span>
+												  	</a>
+												  	<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+												    	<span class="carousel-control-next-icon next-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Próximo</span>
+												  	</a>
+												</div>
+								        	</div>
+								        	<div class="col-sm-4 infos-modal">
+									        	<div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-home icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">782m²</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-location-arrow icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">Toque Toque Pequeno</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-calendar-alt icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">14 meses</p>
+										        </div>
+										    </div>
+								      	</div>
+								      	<div class="modal-footer">
+								        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+								        	</button>
+								      	</div>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-4 mb-5 boxes">
+						<div class="box m3">
+							<a class="hover" href="#" data-toggle="modal" data-target="#ModalLongoExemplo2">
+								<img src="arquivos/projetos/2/tb.jpg">
+							</a>
+							<p>by meia #2</p>
+							<span>Toque Toque Pequeno</span>
+							<div class="modal fade" id="ModalLongoExemplo2" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+							  	<div class="modal-dialog mx-auto" role="document">
+								    <div class="modal-content">
+								      	<div class="modal-header">
+								        	<h5 class="modal-title" id="TituloModalLongoExemplo2">Projeto #2 - By Meia
+								        	</h5>
+								        	<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+								          	<span aria-hidden="true">&times;</span>
+								        	</button>
+								      	</div>
+								      	<div class="modal-body">
+								        	<p class="title">Projeto #2</p>
+								        	<br>
+
+								        	<div class="col-sm-8 slide-modal">
+
+												<div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+
+													<ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="6"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="7"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="9"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="10"></li>
+													    <li data-target="#carouselExampleIndicators2" data-slide-to="11"></li>
+													</ol>
+
+													<div class="carousel-inner">
+													    <div class="carousel-item active">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/1.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+														    	<h5 class="title-legenda mx-auto">TESTE</h5>
+														    	<p class="sub-legenda mx-auto">TESTE</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/2.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/3.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/4.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/5.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/6.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/7.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/8.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/9.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/10.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/11.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/2/12.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													</div>
+												  	<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+												    	<span class="carousel-control-prev-icon prev-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Anterior</span>
+												  	</a>
+												  	<a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+												    	<span class="carousel-control-next-icon next-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Próximo</span>
+												  	</a>
+												</div>
+								        	</div>
+								        	<div class="col-sm-4 infos-modal">
+									        	<div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-home icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">782m²</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-location-arrow icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">Toque Toque Pequeno</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-calendar-alt icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">14 meses</p>
+										        </div>
+										    </div>
+								      	</div>
+								      	<div class="modal-footer">
+								        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+								        	</button>
+								      	</div>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 mb-5 boxes">
+						<div class="box m3">
+							<a class="hover" href="#" data-toggle="modal" data-target="#ModalLongoExemplo3">
+								<img src="arquivos/projetos/3/tb.jpg">
+							</a>
+							<p>by meia #3</p>
+							<span>Toque Toque Pequeno</span>
+							<div class="modal fade" id="ModalLongoExemplo3" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+							  	<div class="modal-dialog mx-auto" role="document">
+								    <div class="modal-content">
+								      	<div class="modal-header">
+								        	<h5 class="modal-title" id="TituloModalLongoExemplo3">Projeto #3 - By Meia
+								        	</h5>
+								        	<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+								          	<span aria-hidden="true">&times;</span>
+								        	</button>
+								      	</div>
+								      	<div class="modal-body">
+								        	<p class="title">Projeto #3</p>
+								        	<br>
+
+								        	<div class="col-sm-8 slide-modal">
+
+												<div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+
+													<ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+													    <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
+													    <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
+													    <li data-target="#carouselExampleIndicators3" data-slide-to="5"></li>
+													    <li data-target="#carouselExampleIndicators3" data-slide-to="6"></li>
+													    <li data-target="#carouselExampleIndicators3" data-slide-to="7"></li>
+													</ol>
+
+													<div class="carousel-inner">
+													    <div class="carousel-item active">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/3/1.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+														    	<h5 class="title-legenda mx-auto">ENTRADA</h5>
+														    	<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/3/2.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/3/3.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/3/4.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/3/5.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/3/6.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/3/7.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/3/8.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													</div>
+												  	<a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+												    	<span class="carousel-control-prev-icon prev-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Anterior</span>
+												  	</a>
+												  	<a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+												    	<span class="carousel-control-next-icon next-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Próximo</span>
+												  	</a>
+												</div>
+								        	</div>
+								        	<div class="col-sm-4 infos-modal">
+									        	<div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-home icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">782m²</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-location-arrow icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">Toque Toque Pequeno</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-calendar-alt icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">14 meses</p>
+										        </div>
+										    </div>
+								      	</div>
+								      	<div class="modal-footer">
+								        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+								        	</button>
+								      	</div>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 mb-5 boxes">
+						<div class="box m3">
+							<a class="hover" href="#" data-toggle="modal" data-target="#ModalLongoExemplo4">
+								<img src="arquivos/projetos/4/tb.jpg">
+							</a>
+							<p>by meia #4</p>
+							<span>Toque Toque Pequeno</span>
+							<div class="modal fade" id="ModalLongoExemplo4" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+							  	<div class="modal-dialog mx-auto" role="document">
+								    <div class="modal-content">
+								      	<div class="modal-header">
+								        	<h5 class="modal-title" id="TituloModalLongoExemplo4">Projeto #4 - By Meia
+								        	</h5>
+								        	<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+								          	<span aria-hidden="true">&times;</span>
+								        	</button>
+								      	</div>
+								      	<div class="modal-body">
+								        	<p class="title">Projeto #4</p>
+								        	<br>
+
+								        	<div class="col-sm-8 slide-modal">
+
+												<div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+
+													<ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="3"></li>
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="4"></li>
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="5"></li>
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="6"></li>
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="7"></li>
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="8"></li>
+													    <li data-target="#carouselExampleIndicators4" data-slide-to="9"></li>
+													</ol>
+
+													<div class="carousel-inner">
+													    <div class="carousel-item active">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/1.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+														    	<h5 class="title-legenda mx-auto">ENTRADA</h5>
+														    	<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/2.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/3.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/4.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/5.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/6.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/7.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/8.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/9.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/4/10.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													</div>
+												  	<a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+												    	<span class="carousel-control-prev-icon prev-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Anterior</span>
+												  	</a>
+												  	<a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+												    	<span class="carousel-control-next-icon next-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Próximo</span>
+												  	</a>
+												</div>
+								        	</div>
+								        	<div class="col-sm-4 infos-modal">
+									        	<div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-home icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">782m²</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-location-arrow icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">Toque Toque Pequeno</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-calendar-alt icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">14 meses</p>
+										        </div>
+										    </div>
+								      	</div>
+								      	<div class="modal-footer">
+								        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+								        	</button>
+								      	</div>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 mb-5 boxes">
+						<div class="box m3">
+							<a class="hover" href="#" data-toggle="modal" data-target="#ModalLongoExemplo5">
+								<img src="arquivos/projetos/5/tb.jpg">
+							</a>
+							<p>by meia #5</p>
+							<span>Toque Toque Pequeno</span>
+							<div class="modal fade" id="ModalLongoExemplo5" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+							  	<div class="modal-dialog mx-auto" role="document">
+								    <div class="modal-content">
+								      	<div class="modal-header">
+								        	<h5 class="modal-title" id="TituloModalLongoExemplo5">Projeto #5 - By Meia
+								        	</h5>
+								        	<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+								          	<span aria-hidden="true">&times;</span>
+								        	</button>
+								      	</div>
+								      	<div class="modal-body">
+								        	<p class="title">Projeto #5</p>
+								        	<br>
+
+								        	<div class="col-sm-8 slide-modal">
+
+												<div id="carouselExampleControls5" class="carousel slide" data-ride="carousel">
+
+													<ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+													    <li data-target="#carouselExampleIndicators5" data-slide-to="3"></li>
+													    <li data-target="#carouselExampleIndicators5" data-slide-to="4"></li>
+													    <li data-target="#carouselExampleIndicators5" data-slide-to="5"></li>
+													    <li data-target="#carouselExampleIndicators5" data-slide-to="6"></li>
+													    <li data-target="#carouselExampleIndicators5" data-slide-to="7"></li>
+													</ol>
+
+													<div class="carousel-inner">
+													    <div class="carousel-item active">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/5/1.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+														    	<h5 class="title-legenda mx-auto">ENTRADA</h5>
+														    	<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/5/2.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/5/3.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/5/4.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/5/5.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/5/6.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/5/7.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/5/8.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>													    
+													</div>
+												  	<a class="carousel-control-prev" href="#carouselExampleControls5" role="button" data-slide="prev">
+												    	<span class="carousel-control-prev-icon prev-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Anterior</span>
+												  	</a>
+												  	<a class="carousel-control-next" href="#carouselExampleControls5" role="button" data-slide="next">
+												    	<span class="carousel-control-next-icon next-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Próximo</span>
+												  	</a>
+												</div>
+								        	</div>
+								        	<div class="col-sm-4 infos-modal">
+									        	<div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-home icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">782m²</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-location-arrow icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">Toque Toque Pequeno</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-calendar-alt icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">14 meses</p>
+										        </div>
+										    </div>
+								      	</div>
+								      	<div class="modal-footer">
+								        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+								        	</button>
+								      	</div>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 mb-5 boxes">
+						<div class="box m3">
+							<a class="hover" href="#" data-toggle="modal" data-target="#ModalLongoExemplo6">
+								<img src="arquivos/projetos/6/tb.jpg">
+							</a>
+							<p>by meia #6</p>
+							<span>Toque Toque Pequeno</span>
+							<div class="modal fade" id="ModalLongoExemplo6" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+							  	<div class="modal-dialog mx-auto" role="document">
+								    <div class="modal-content">
+								      	<div class="modal-header">
+								        	<h5 class="modal-title" id="TituloModalLongoExemplo6">Projeto #6 - By Meia
+								        	</h5>
+								        	<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+								          	<span aria-hidden="true">&times;</span>
+								        	</button>
+								      	</div>
+								      	<div class="modal-body">
+								        	<p class="title">Projeto #6</p>
+								        	<br>
+
+								        	<div class="col-sm-8 slide-modal">
+
+												<div id="carouselExampleControls6" class="carousel slide" data-ride="carousel">
+
+													<ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+													    <li data-target="#carouselExampleIndicators6" data-slide-to="3"></li>
+													    <li data-target="#carouselExampleIndicators6" data-slide-to="4"></li>
+													    <li data-target="#carouselExampleIndicators6" data-slide-to="5"></li>
+													    <li data-target="#carouselExampleIndicators6" data-slide-to="6"></li>
+													</ol>
+
+													<div class="carousel-inner">
+													    <div class="carousel-item active">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/6/1.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+														    	<h5 class="title-legenda mx-auto">ENTRADA</h5>
+														    	<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/6/2.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/6/3.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/6/4.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/6/5.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/6/6.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/6/7.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>													    
+													</div>
+												  	<a class="carousel-control-prev" href="#carouselExampleControls6" role="button" data-slide="prev">
+												    	<span class="carousel-control-prev-icon prev-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Anterior</span>
+												  	</a>
+												  	<a class="carousel-control-next" href="#carouselExampleControls6" role="button" data-slide="next">
+												    	<span class="carousel-control-next-icon next-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Próximo</span>
+												  	</a>
+												</div>
+								        	</div>
+								        	<div class="col-sm-4 infos-modal">
+									        	<div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-home icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">782m²</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-location-arrow icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">Toque Toque Pequeno</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-calendar-alt icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">14 meses</p>
+										        </div>
+										    </div>
+								      	</div>
+								      	<div class="modal-footer">
+								        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+								        	</button>
+								      	</div>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 mb-5 boxes">
+						<div class="box m3">
+							<a class="hover" href="#" data-toggle="modal" data-target="#ModalLongoExemplo7">
+								<img src="arquivos/projetos/7/tb.jpg">
+							</a>
+							<p>by meia #7</p>
+							<span>Toque Toque Pequeno</span>
+							<div class="modal fade" id="ModalLongoExemplo7" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+							  	<div class="modal-dialog mx-auto" role="document">
+								    <div class="modal-content">
+								      	<div class="modal-header">
+								        	<h5 class="modal-title" id="TituloModalLongoExemplo7">Projeto #7 - By Meia
+								        	</h5>
+								        	<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+								          	<span aria-hidden="true">&times;</span>
+								        	</button>
+								      	</div>
+								      	<div class="modal-body">
+								        	<p class="title">Projeto #7</p>
+								        	<br>
+
+								        	<div class="col-sm-8 slide-modal">
+
+												<div id="carouselExampleControls7" class="carousel slide" data-ride="carousel">
+
+													<ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="2"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="3"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="4"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="5"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="6"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="7"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="8"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="9"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="10"></li>
+													    <li data-target="#carouselExampleIndicators7" data-slide-to="11"></li>
+													</ol>
+
+													<div class="carousel-inner">
+													    <div class="carousel-item active">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/1.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+														    	<h5 class="title-legenda mx-auto">ENTRADA</h5>
+														    	<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/2.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/3.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/4.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/5.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/6.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/7.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/8.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/9.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/10.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/11.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/7/12.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>														    
+													</div>
+												  	<a class="carousel-control-prev" href="#carouselExampleControls7" role="button" data-slide="prev">
+												    	<span class="carousel-control-prev-icon prev-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Anterior</span>
+												  	</a>
+												  	<a class="carousel-control-next" href="#carouselExampleControls7" role="button" data-slide="next">
+												    	<span class="carousel-control-next-icon next-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Próximo</span>
+												  	</a>
+												</div>
+								        	</div>
+								        	<div class="col-sm-4 infos-modal">
+									        	<div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-home icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">782m²</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-location-arrow icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">Toque Toque Pequeno</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-calendar-alt icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">14 meses</p>
+										        </div>
+										    </div>
+								      	</div>
+								      	<div class="modal-footer">
+								        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+								        	</button>
+								      	</div>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 mb-5 boxes">
+						<div class="box m3">
+							<a class="hover" href="#" data-toggle="modal" data-target="#ModalLongoExemplo8">
+								<img src="arquivos/projetos/8/tb.jpg">
+							</a>
+							<p>by meia #8</p>
+							<span>Toque Toque Pequeno</span>
+							<div class="modal fade" id="ModalLongoExemplo8" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+							  	<div class="modal-dialog mx-auto" role="document">
+								    <div class="modal-content">
+								      	<div class="modal-header">
+								        	<h5 class="modal-title" id="TituloModalLongoExemplo8">Projeto #8 - By Meia
+								        	</h5>
+								        	<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+								          	<span aria-hidden="true">&times;</span>
+								        	</button>
+								      	</div>
+								      	<div class="modal-body">
+								        	<p class="title">Projeto #8</p>
+								        	<br>
+
+								        	<div class="col-sm-8 slide-modal">
+
+												<div id="carouselExampleControls8" class="carousel slide" data-ride="carousel">
+
+													<ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="2"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="3"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="4"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="5"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="6"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="7"></li>
+													</ol>
+
+													<div class="carousel-inner">
+													    <div class="carousel-item active">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/1.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+														    	<h5 class="title-legenda mx-auto">ENTRADA</h5>
+														    	<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/2.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/3.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/4.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/5.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/6.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/7.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/8.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>													    
+													</div>
+												  	<a class="carousel-control-prev" href="#carouselExampleControls8" role="button" data-slide="prev">
+												    	<span class="carousel-control-prev-icon prev-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Anterior</span>
+												  	</a>
+												  	<a class="carousel-control-next" href="#carouselExampleControls8" role="button" data-slide="next">
+												    	<span class="carousel-control-next-icon next-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Próximo</span>
+												  	</a>
+												</div>
+								        	</div>
+								        	<div class="col-sm-4 infos-modal">
+									        	<div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-home icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">782m²</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-location-arrow icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">Toque Toque Pequeno</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-calendar-alt icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">14 meses</p>
+										        </div>
+										    </div>
+								      	</div>
+								      	<div class="modal-footer">
+								        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+								        	</button>
+								      	</div>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-4 mb-5 boxes">
+						<div class="box m3">
+							<a class="hover" href="#" data-toggle="modal" data-target="#ModalLongoExemplo8">
+								<img src="arquivos/projetos/8/tb.jpg">
+							</a>
+							<p>by meia #8</p>
+							<span>Toque Toque Pequeno</span>
+							<div class="modal fade" id="ModalLongoExemplo8" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+							  	<div class="modal-dialog mx-auto" role="document">
+								    <div class="modal-content">
+								      	<div class="modal-header">
+								        	<h5 class="modal-title" id="TituloModalLongoExemplo8">Projeto #8 - By Meia
+								        	</h5>
+								        	<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+								          	<span aria-hidden="true">&times;</span>
+								        	</button>
+								      	</div>
+								      	<div class="modal-body">
+								        	<p class="title">Projeto #8</p>
+								        	<br>
+
+								        	<div class="col-sm-8 slide-modal">
+
+												<div id="carouselExampleControls8" class="carousel slide" data-ride="carousel">
+
+													<ol class="carousel-indicators">
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="1"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="2"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="3"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="4"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="5"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="6"></li>
+													    <li data-target="#carouselExampleIndicators8" data-slide-to="7"></li>
+													</ol>
+
+													<div class="carousel-inner">
+													    <div class="carousel-item active">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/1.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+														    	<h5 class="title-legenda mx-auto">ENTRADA</h5>
+														    	<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/2.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/3.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/4.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/5.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/6.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/7.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>
+													    <div class="carousel-item">
+													      	<img class="d-block w-100 foto-modal" src="arquivos/projetos/8/8.jpg" alt="Primeiro Slide">
+													      	<div class="carousel-caption d-none d-md-block">
+													    		<h5 class="title-legenda mx-auto">ENTRADA</h5>
+													    		<p class="sub-legenda mx-auto">Foto frontal da entrada</p>
+														  	</div>
+													    </div>													    
+													</div>
+												  	<a class="carousel-control-prev" href="#carouselExampleControls8" role="button" data-slide="prev">
+												    	<span class="carousel-control-prev-icon prev-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Anterior</span>
+												  	</a>
+												  	<a class="carousel-control-next" href="#carouselExampleControls8" role="button" data-slide="next">
+												    	<span class="carousel-control-next-icon next-modal" aria-hidden="true"></span>
+												    	<span class="sr-only">Próximo</span>
+												  	</a>
+												</div>
+								        	</div>
+								        	<div class="col-sm-4 infos-modal">
+									        	<div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-home icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">782m²</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-location-arrow icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">Toque Toque Pequeno</p>
+										        </div>
+										        <div class="col-sm-12 pt-5 box-info">
+									        		<i class="fas fa-calendar-alt icone-modal pr-3"></i>
+											        <p class="info-modal pt-1">14 meses</p>
+										        </div>
+										    </div>
+								      	</div>
+								      	<div class="modal-footer">
+								        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+								        	</button>
+								      	</div>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+
+			<div class="row mb-5 formulario">
+				<div class="col-sm-12">
+					<p class="title" id="contato">CONTATO</p>
+				</div>
+				<div class="col-sm-6 mx-auto">
+					<div class="box-form">
+						<form>
+							<div class="form-group col-sm-12">
+								<label for="inputNome">Nome:</label>
+	      						<input type="email" class="form-control mx-auto" id="inputNome" placeholder="Digite seu nome">
+							</div>
+							<div class="form-group col-sm-12">
+								<label for="inputEmail">Email:</label>
+	      						<input type="email" class="form-control mx-auto" id="inputEmail" placeholder="Digite seu email">
+							</div>
+							<div class="form-group col-sm-12">
+								<label for="inputTel">Telefone:</label>
+	      						<input type="tel" class="form-control mx-auto" id="inputTel" placeholder="Digite seu telefone/celular">
+							</div>
+							<div class="form-group col-sm-12">
+								<label for="Textarea1">Mensagem:</label>
+    							<textarea class="form-control mx-auto" id="Textarea1" rows="3" placeholder="Digite sua mensagem"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary mb-5">Enviar</button>
+						</form>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.0613858747306!2d-45.53375118516042!3d-23.816416084556863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d286a33c84b435%3A0x898b7e0f7588180b!2sR.+Ana+Ayres+dos+Santos+-+Praia+do+Toque-Toque+Pequeno%2C+S%C3%A3o+Sebasti%C3%A3o+-+SP%2C+11600-000!5e0!3m2!1spt-BR!2sbr!4v1537119976838" frameborder="0" allowfullscreen></iframe>
+					<div class="mx-auto info pt-2">
+						<i class="fas fa-envelope icone email"></i>
+						<span class="pl-3">bymeia@uol.com.br</span>
+					</div>
+					<div class="mx-auto info pt-2">
+						<i class="fas fa-phone icone telefone"></i>
+						<span class="pl-3">+55 (12) 3864-9319</span>
+					</div>
+					<div class="mx-auto info pt-2">
+						<i class="fas fa-mobile icone celular"></i>
+						<span class="pl-3">+55 (12) 99715-2894</span>
+					</div>
+					<div class="mx-auto info pt-2">
+						<i class="fas fa-location-arrow icone local"></i>
+						<span class="pl-3">Rua Ana Ayres dos Santos, 600 - Toque Toque Pequeno São Sebastião - SP </span>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="row">
+				<div class="col-sm-12">
+					<a id="subirTopo">
+					  	<i class="fas fa-arrow-up"></i><br> subir
+					</a>
+					<p>
+						© Copyright 2018 - BY MEIA, todos os direitos reservados.
+					</p>
+				</div>
+			</div>	
+
+			<script type="text/javascript">
+				jQuery(document).ready(function(){
+
+				jQuery("#subirTopo").hide();
+
+				jQuery('a#subirTopo').click(function () {
+				         jQuery('body,html').animate({
+				           scrollTop: 0
+				         }, 800);
+				        return false;
+				   });
+
+				jQuery(window).scroll(function () {
+				         if (jQuery(this).scrollTop() > 300) {
+				            jQuery('#subirTopo').fadeIn();
+				         } else {
+				            jQuery('#subirTopo').fadeOut();
+				         }
+				     });
+				});
+			</script>	
+		</footer>
+
+	</div>
+</body>
+</html>
