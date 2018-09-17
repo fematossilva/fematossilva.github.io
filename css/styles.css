@@ -201,10 +201,6 @@ main .modal-dialog{
 	width: 80%;
 }
 
-main .modal-body{
-	max-height: 500px;
-}
-
 main .modal-body .title{
 	color: #000000;
 }
