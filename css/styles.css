@@ -200,6 +200,10 @@ main .modal-dialog{
 	width: 80%;
 }
 
+main .modal-body{
+	max-height: 500px;
+}
+
 main .modal-body .title{
 	color: #000000;
 }
@@ -275,4 +279,27 @@ main .modal-body .next-modal{
 
 #subirTopo:hover {
 	opacity:1;
+}
+
+@media screen and (max-width: 800px){
+
+	.carousel-indicators{
+		bottom: -25px !important;
+	}
+
+	.carousel-indicators .active{
+		background-color: #000 !important;
+	}
+
+	.carousel-indicators li{
+		background-color: rgba(255, 0, 0, 0.5)
+	}
+
+	main .modal-body{
+		max-height: 650px;
+	}
+
+	main .modal-body .foto-modal{
+		max-height: 100px;
+	}
 }
