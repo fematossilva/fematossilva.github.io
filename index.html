@@ -1387,24 +1387,24 @@
 				</div>
 				<div class="col-sm-6 mx-auto">
 					<div class="box-form">
-						<form>
+						<form action="enviar_email.php" method="post" enctype="multipart/form-data">
 							<div class="form-group col-sm-12">
-								<label for="inputNome">Nome:</label>
-	      						<input type="text" class="form-control mx-auto" id="inputNome" placeholder="Digite seu nome">
+								<label for="nome">Nome:</label>
+	      						<input type="text" class="form-control mx-auto" id="nome" placeholder="Digite seu nome">
 							</div>
 							<div class="form-group col-sm-12">
-								<label for="inputEmail">Email:</label>
-	      						<input type="email" class="form-control mx-auto" id="inputEmail" placeholder="Digite seu email">
+								<label for="email">Email:</label>
+	      						<input type="email" class="form-control mx-auto" id="email" placeholder="Digite seu email">
 							</div>
 							<div class="form-group col-sm-12">
-								<label for="inputTel">Telefone:</label>
-	      						<input type="tel" class="form-control mx-auto" id="inputTel" placeholder="Digite seu telefone/celular">
+								<label for="telefone">Telefone:</label>
+	      						<input type="tel" class="form-control mx-auto" id="telefone" placeholder="Digite seu telefone/celular">
 							</div>
 							<div class="form-group col-sm-12">
-								<label for="Textarea1">Mensagem:</label>
-    							<textarea class="form-control mx-auto" id="Textarea1" rows="3" placeholder="Digite sua mensagem"></textarea>
+								<label for="mensagem">Mensagem:</label>
+    							<textarea class="form-control mx-auto" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
 							</div>
-							<button type="submit" class="btn btn-primary mb-5">Enviar</button>
+							<button type="submit" name="enviar_email" id="enviar" value="enviar" class="btn btn-primary mb-5">Enviar</button>
 						</form>
 					</div>
 				</div>
