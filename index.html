@@ -26,6 +26,7 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
 
     <script  src="js/script.js"></script>
+    <script  src="js/form.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -1393,18 +1394,19 @@
 	      						<input type="text" class="form-control mx-auto" id="nome" placeholder="Digite seu nome">
 							</div>
 							<div class="form-group col-sm-12">
-								<label for="email">Email:</label>
-	      						<input type="email" class="form-control mx-auto" id="email" placeholder="Digite seu email">
-							</div>
-							<div class="form-group col-sm-12">
 								<label for="telefone">Telefone:</label>
 	      						<input type="tel" class="form-control mx-auto" id="telefone" placeholder="Digite seu telefone/celular">
 							</div>
 							<div class="form-group col-sm-12">
+								<label for="email">Email:</label>
+	      						<input type="email" class="form-control mx-auto" id="email" placeholder="Digite seu email">
+							</div>
+							<div class="form-group col-sm-12">
+								<input type="hidden" name="assunto" id="assunto" value="Contato Site By Meia">
 								<label for="mensagem">Mensagem:</label>
     							<textarea class="form-control mx-auto" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
 							</div>
-							<button type="submit" name="enviar_email" id="enviar" value="enviar" class="btn btn-primary mb-5">Enviar</button>
+							<button type="submit" name="enviar" id="enviar" value="enviar" class="btn btn-primary mb-5">Enviar</button>
 						</form>
 					</div>
 				</div>
